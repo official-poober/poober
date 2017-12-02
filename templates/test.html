@@ -41,9 +41,10 @@
     </form>
 
     <!-- MESSAGES -->
-    {% for message in messages %}
-          <li>{{ message }}</li>
-        {% endfor %}
+    {% set messages = get_flashed_messages() %}
+    {% for msg in get_flashed_messages() %}
+      <h4 class="text-danger">{{ msg }}</h4>
+    {% endfor %}
 
         <!-- Footer - Consistent across all pages-->
     <footer class="footer">

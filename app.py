@@ -41,6 +41,7 @@ def route():
                 min = element["distance"]["value"]
                 minindex = count
         print b[minindex]
+        flash("Closest Bathroom: " + b[minindex]["name"])
     return render_template("test.html")
 
 
