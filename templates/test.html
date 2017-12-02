@@ -39,5 +39,29 @@
       <input type="text" name="address"><br>
       <input type="submit" value="Submit">
     </form>
+
+    <!-- MESSAGES -->
+    {% for message in messages %}
+          <li>{{ message }}</li>
+        {% endfor %}
+
+        <!-- Footer - Consistent across all pages-->
+    <footer class="footer">
+      <hr>
+      <div class="container text-center">
+        <p class="copyright text-muted">
+          -- Team Rainbow Unicorn Barf
+          <!-- Script to display the Current Year -->
+          <script language="JavaScript" type="text/javascript">
+            now = new Date
+            theYear = now.getYear()
+            if (theYear < 1900)
+                          theYear = theYear + 1900
+                          document.write(theYear)
+        </script>
+          --
+        </p>
+      </div>
+    </footer>
   </body>
 </html>
