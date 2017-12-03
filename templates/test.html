@@ -49,17 +49,14 @@
         <!-- Footer - Consistent across all pages-->
     <footer class="footer">
       <hr>
-      <div class="container text-center">
-        <p class="copyright text-muted">
-          -- POOBUR
-          <!-- Script to display the Current Year -->
-          <script language="JavaScript" type="text/javascript">
-            now = new Date
-            theYear = now.getYear()
-            if (theYear < 1900)
-                          theYear = theYear + 1900
-                          document.write(theYear)
-        </script>
+      
+      <div>
+    &copy;
+    <span id="copyright">
+        <script>document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))</script>
+    </span>
+    POOBER
+</div>
           --
         </p>
       </div>
