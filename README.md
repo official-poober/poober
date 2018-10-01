@@ -1,3 +1,0 @@
-# StuyHacksV
-
-(POOBER)
