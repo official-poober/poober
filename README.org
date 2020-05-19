@@ -1,4 +1,6 @@
 #+TITLE: Poober
 #+AUTHOR: Khinshan Khan
 
+[[Deployment][https://github.com/kkhan01/poober/workflows/Deployment/badge.svg]]
+
 Ever gotta go but don't know where to go?
